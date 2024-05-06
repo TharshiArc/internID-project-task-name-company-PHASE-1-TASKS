@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Options</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+    }
+    .pricing-table {
+      margin-top: 50px;
+    }
+    .pricing-table th, .pricing-table td {
+      vertical-align: middle;
+    }
+    .pricing-table th {
+      background-color: #007bff;
+      color: #ffffff;
+      font-weight: bold;
+      text-align: center;
+    }
+    .pricing-table tr:hover {
+      background-color: #f8f9fa;
+    }
+    .pricing-table .table-active:hover {
+      background-color: #e9ecef;
+    }
+    .pricing-table .btn {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="text-center">PRICING OPTIONS</h2>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <table class="table table-bordered table-hover pricing-table">
+          <thead>
+            <tr>
+              <th>Plan</th>
+              <th>Price</th>
+              <th>Features</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-active">
+              <td>Basic</td>
+              <td>RS.100/month</td>
+              <td>Basic features</td>
+              <td><button class="btn btn-primary">Subscribe</button></td>
+            </tr>
+            <tr class="table-active">
+              <td>Standard</td>
+              <td>RS.500/month</td>
+              <td>Standard features</td>
+              <td><button class="btn btn-primary">Subscribe</button></td>
+            </tr>
+            <tr class="table-active">
+              <td>Premium</td>
+              <td>RS.1000/month</td>
+              <td>Premium features</td>
+              <td><button class="btn btn-primary">Subscribe</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
