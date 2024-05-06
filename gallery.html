@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for the gallery */
+	body{
+	  background-color:black;
+	}
+    .gallery {
+      margin: 20px auto;
+    }
+
+    .gallery .row {
+      margin-bottom: 15px;
+    }
+
+    .gallery .img-wrapper {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery .img-wrapper:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<center><h1 style="color: silver;font-family:'Lucida Bright';font-size:80px;">GALLERY</h1></center>
+<div class="container">
+  <div class="gallery">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://wallpapers.com/images/hd/lexus-logo-silver-926n2mfoxigh1xe6.jpg" alt="Image 1">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="img-wrapper">
+		<img src="https://i.pinimg.com/originals/b9/2b/f1/b92bf19612e524ac1f9d5e998770eba7.jpg" alt="Image 3">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://brandslogos.com/wp-content/uploads/thumbs/rolls-royce-logo-vector-1.svg" alt="Image 3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Image 4">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://i.pinimg.com/originals/5b/ac/94/5bac942d02e70ce67498bf2ff04efe97.png" alt="Image 5">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo-1997.png" alt="Image 6">
+        </div>
+      </div>
+	  <div class="col-md-12">
+        <div class="img-wrapper">
+          <img src="https://logos-world.net/wp-content/uploads/2021/03/Aston-Martin-Logo-2003-2021.png" alt="Image 6">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
